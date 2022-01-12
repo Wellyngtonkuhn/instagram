@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f3f3f3;
+}
+
+.slide{
+    display: none;
+}
+
+.container{
+    display: flex;
+    max-width: 62vw;
+    margin: auto;
+}
