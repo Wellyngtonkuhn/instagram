@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+:root{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body{
     background-color: #f3f3f3;
 }
@@ -15,5 +20,103 @@ body{
 .container{
     display: flex;
     max-width: 62vw;
-    margin: auto;
+    margin: 2rem auto;
+}
+
+
+/* Mobile */
+.sessao-smartphone{
+    display: none;
+}
+
+
+.content-login{
+    background-color: #fff;
+    max-width: 50vw;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.sessao-smartphone h1{
+    font-weight: 400;
+    font-size: 1,142rem;
+    color: #262626;
+}
+
+.form-login{
+    padding-top: 2rem;
+}
+
+.form-login label input{
+    background-color: #FAFAFA;
+    width: 70%;
+    height: 2rem;
+    margin-bottom: .7rem;
+    border: none;
+    border: 1px solid #dbdbdb;
+    color: #f3f3f3;
+    padding-left: 0.5rem;
+}
+
+.btn{
+    background-color: #B2DFFC;
+    border: none;
+    border-radius: 7px;
+    padding: .4rem 6.2rem;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: .7rem;
+}
+
+.linhas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.linhas p {
+    color: #dbdbdb;
+}
+
+.linhaEsquerda,
+.linhaDireita{
+    width: 5.8rem;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.facebook{
+    color: #385185;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+
+.content-login p {
+    color: #00376b;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    cursor: pointer;
+}
+
+.cadastrar{
+    width: 50vw;
+    background-color: #fff;
+    margin-top: 1rem;
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 0.75rem;
+}
+
+.cadastrar p {
+    color: #262626;
+}
+.cadastrar p a{
+    text-decoration: none;
+    color: #0095f6;
+    font-weight: 600;
 }
