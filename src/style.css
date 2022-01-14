@@ -14,8 +14,13 @@ body{
 }
 
 .slide{
-    display: none;
+    width: 15.5rem;
+    position: absolute;
+    top: 8rem;
+    left: 24.9rem;
 }
+
+
 
 .container{
     display: flex;
@@ -145,3 +150,4 @@ body{
 .app-loja a img{
     width: 9rem;
 }
+
